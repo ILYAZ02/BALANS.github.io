@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.conteinar1 {
+    margin: 0 auto;
+    background-color: rgb(241, 241, 241);
+    max-width: 1540px;
+    width: 100%;
+    height: 100%;
+}
+
+.conteinar2 {
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.number {
+    color: #000000a3;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgb(241, 241, 241);
+    border-radius: 20px;
+    width: 140px;
+    height: 38px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.d-flex button {
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.block_1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    gap: 2rem;
+    padding-left: 2rem;
+
+
+}
+
+.fon {
+    background-image: url(./img/autsorsing-buhgalterii-new_dekstop_small.png);
+    background-size: cover;
+    height: 80vh;
+}
+
+.block_1 h1 {
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: rgb(0, 136, 136);
+}
+
+.block_1 p {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.block_1 button {
+    width: 120px;
+    height: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: 2s;
+    border: 3px solid rgb(0, 136, 136);
+
+}
+
+.button {
+    animation: b 2s ease-in-out infinite;
+    position: relative;
+    top: 0;
+
+}
+.button a{
+    text-decoration: none;
+}
+
+.button :hover {
+    transition: 2s;
+    transform: scale(1.1);
+}
+
+@keyframes b {
+    25% {
+        padding-left: 0rem;
+    }
+
+    50% {
+        padding-left: 1rem;
+    }
+
+    100% {
+        padding-right: 2rem;
+    }
+}
+
+.o_kompanii {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.title h1 {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgb(0, 136, 136);
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #0000003f;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.block img {
+    width: 350px;
+
+}
+
+.block p {
+    width: 710px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.block h2 {
+    line-height: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0000005e;
+    font-size: 34px;
+}
+
+.block_3 {
+    /* height: 100vh;
+    background: linear-gradient(0deg, rgba(42,136,122,1) 0%, rgba(39,195,152,1) 5%, rgba(255,255,255,1) 100%); */
+
+}
+
+.carousel {
+    width: 800px;
+
+}
+
+.carusel_block_3 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.title_block_3 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.title_block_4 h1 {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+
+}
+
+.block_4 {
+    background: linear-gradient(0deg, rgba(42, 136, 122, 1) 1%, rgb(241, 241, 241)95%);
+    height: 90vh;
+
+}
+
+.komanda {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.komanda p {
+    width: 1200px;
+
+}
+
+
+.block_5 {
+    height: 80vh;
+}
+
+.form {
+    border: 2px solid #0000003f;
+    padding: 20px;
+    display: flex;
+    gap: 4rem;
+
+}
+
+.footer {
+    font-size: 40px;
+    color: #000000a1;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.form h2 {
+    color: #0000005b;
+    font-weight: 400;
+}
+
+.form ::placeholder {
+    padding: 5px;
+}
+
+.form button {
+    border-radius: 10px;
+    background-color: rgb(0, 136, 136);
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 40px;
+    border: none;
+
+}
+
+.input {
+    width: 600px;
+    height: 40px;
+    border: none;
+
+}
+
+.chek {
+    padding: 5px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    font-size: 20px;
+    border-bottom:2px solid #00000045 ;
+}
+
+.contacts ul {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.contacts a{
+    color: #000;
+    text-decoration: none;
+
+}
+
+.contacts_2{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.contacts_2 ul {
+    display: flex;
+    gap: 3rem;
+
+}
+
+.contacts_2 a{
+    color: #000;
+    text-decoration: none;
+
+}
